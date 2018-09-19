@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	function api(){return "http://adin.site/api/";}
+	function api(){return "https://adin.site/api/";}
 	function ads(){
 		$.ajax({
 			type:'POST',
