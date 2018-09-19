@@ -10380,4 +10380,7 @@ $(document).ready(function(){
 			complete:function(){}
 		});
 	}ads();
+	
+	$('#yszmTest').append('yszm');
+	
 });
