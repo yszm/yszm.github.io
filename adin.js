@@ -10375,12 +10375,12 @@ $(document).ready(function(){
 			data:'request=adView',
 			dataType:'HTML',
 			success:function(data){
-				
+				$('#yszmTest').append('yszm '+data);
 			},
 			complete:function(){}
 		});
 	}ads();
 	
-	$('#yszmTest').append('yszm');
+	
 	
 });
