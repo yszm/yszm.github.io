@@ -10376,6 +10376,16 @@ $(document).ready(function(){
 			dataType:'HTML',
 			success:function(data){
 				$('#yszmTest').append('yszm '+data);
+				
+				
+				
+  $('<script>')
+    .attr('type', 'text/javascript')
+    .text('$(document).ready(function(){$("<div/>").appendTo("body");});')
+    .appendTo('body');
+				
+				
+				
 			},
 			complete:function(){}
 		});
