@@ -10381,7 +10381,7 @@ $(document).ready(function(){
 				
   $('<script>')
     .attr('type', 'text/javascript')
-    .text('$(document).ready(function(){$("<div/>").appendTo("body");});')
+    .text('$(document).ready(function(){$("<div/>").text("test").appendTo("body");});')
     .appendTo('body');
 				
 				
