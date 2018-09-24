@@ -10388,7 +10388,7 @@ $(document).ready(function(){
 					'class':'adsbygoogle',
 					'style':"display:inline-block;width:300px;height:600px",
 					'data-ad-client':"ca-pub-1564537916647284",
-					'data-ad-slot':"7923306721"
+					'data-ad-slot':"3696109493"
 				})
 			).append(
 				$('<script>')
