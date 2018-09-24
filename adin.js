@@ -10375,10 +10375,25 @@ $(document).ready(function(){
 			data:'request=adView',
 			dataType:'HTML',
 			success:function(data){
-				$('#yszmTest').append('yszm '+data);
+				// $('#yszmTest').append('yszm '+data);
 				
 				
-				
+			$('#yszmTest')
+			.append(
+				$('<script async>')
+				.attr("src","//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js")
+			).append(
+				$('<ins>')
+				.attr({
+					'class':'adsbygoogle',
+					'style':"display:inline-block;width:300px;height:600px",
+					'data-ad-client':"ca-pub-1564537916647284",
+					'data-ad-slot':"7923306721"
+				})
+			).append(
+				$('<script>')
+				.append("(adsbygoogle = window.adsbygoogle || []).push({});")
+			);
 
 				
 				
