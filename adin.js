@@ -10380,7 +10380,7 @@ $(document).ready(function(){
 				
 			$('#yszmTest')
 			.append(
-				$('<script async>')
+				$("<script async='async'>")
 				.attr("src","//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js")
 			).append(
 				$('<ins>')
