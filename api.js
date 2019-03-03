@@ -1,0 +1,1 @@
+// document.getElementsByTagName('body')[0].innerText='000000000000';
