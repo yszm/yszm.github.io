@@ -1,1 +1,1 @@
-let theTest=function(){console.log('yszm');}
+let gls=function(){console.log('yszm');}
