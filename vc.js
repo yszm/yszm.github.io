@@ -1,1 +1,1 @@
-let theTest=function(){console.log('the test is run ...');}
+let theTest=function(){console.log('yszm');}
